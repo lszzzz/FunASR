@@ -41,6 +41,8 @@ requirements = {
         "tensorboardX",
         # "rotary_embedding_torch",
         "requests",
+        "torch>=1.13",
+        "torchaudio",
     ],
     # train: The modules invoked when training only.
     "train": [
